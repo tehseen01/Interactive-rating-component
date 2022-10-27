@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: "Overpass", sans-serif;
+}
+
+.card-container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-rating-body {
+    background: hsl(213, 19%, 18%);
+    max-width: 30rem;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+.star-img {
+    margin-bottom: 1.5rem;
+    background: hsl(216, 12%, 24%);
+    padding: 1.5rem;
+    border-radius: 100px;
+    width: 4.5rem;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+.card-description {
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 1.5rem 0 0 0;
+    line-height: 1.5;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.btn {
+    background: hsl(216, 12%, 24%);
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn:hover {
+    background: hsl(217, 12%, 63%);
+}
+.btn:focus {
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+.submit-btn {
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 20px;
+    background: hsl(25, 97%, 53%);
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition:  400ms ease;
+}
+
+.submit-btn:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+    background: hsl(213, 19%, 18%);
+    max-width: 30rem;
+    border-radius: 30px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.thank-you-img {
+    display: block;
+    margin: 1rem auto;
+}
+.show-rating {
+    margin: 2rem 0;
+    background-color: hsl(216, 12%, 24%);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you-title {
+    margin: 0 0 1.5rem 0;
+    font-size: 2rem;
+}
+
+.thank-you-desc {
+    color: hsl(216, 12%, 54%);
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .card-rating-body {
+        width: 21.5rem;
+        padding: 1.5rem;
+    }
+
+    .btn {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.6rem;
+    }
+
+    .card-description {
+        font-weight: 400;
+        letter-spacing: 0;
+        margin-top: 1rem;
+    }
+    .star-img {
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+        width: 3rem;
+    }
+
+    .thank-you {
+        width: 21.5rem;
+        padding: 1rem;
+    }
+
+    .show-rating {
+        margin: 1rem 0;
+    }
+    .thank-you-title {
+        margin-bottom: 1rem;
+    }
+    .thank-you-desc {
+        letter-spacing: 0;
+    }
+}
