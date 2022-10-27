@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/tehseen01/Interactive-rating-component.git)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://tehseen01-interactice-rating-card.netlify.app/)
 
 ### Built with
 
